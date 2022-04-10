@@ -1,4 +1,4 @@
-FROM alpine:3.13.2 AS builder
+FROM alpine:latest AS builder
 
 ARG THTTPD_VERSION=2.29
 
